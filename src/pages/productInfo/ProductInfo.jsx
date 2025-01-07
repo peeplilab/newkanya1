@@ -26,7 +26,7 @@ const ProductInfo = () => {
         try {
             const productTemp = await getDoc(doc(fireDB, "products", id))
             // console.log({...productTemp.data(), id : productTemp.id})
-            setProduct({...productTemp.data(), id : productTemp.id})
+            setProduct({ ...productTemp.data(), id: productTemp.id })
             setLoading(false)
         } catch (error) {
             console.log(error)
@@ -155,15 +155,15 @@ const ProductInfo = () => {
                                                 <span>₹ {product?.price}</span>
                                             </p>
                                             <div className="flex flex-wrap items-center mb-3">
-                                          
-                                          {/* <button
+
+                                                {/* <button
                                               onClick={() => addCart(product)}
                                               className="w-full px-4 py-3 text-center text-pink-600 bg-pink-100 border border-pink-600  hover:bg-pink-600 hover:text-gray-100  rounded-xl"
                                           >
                                               Check current Price
                                           </button> */}
-                                
-                                  </div>
+
+                                            </div>
                                         </div>
                                         <div className="mb-6">
                                             <h2 className="mb-2 text-lg font-bold text-gray-700 dark:text-gray-400">
@@ -173,7 +173,7 @@ const ProductInfo = () => {
                                         </div>
 
                                         <div className="mb-6 " />
-                                        <div className="flex flex-wrap items-center mb-3">
+                                        {/* <div className="flex flex-wrap items-center mb-3">
                                             {cartItems.some((p) => p.id === product.id)
                                                 ?
                                                 <button
@@ -190,17 +190,19 @@ const ProductInfo = () => {
                                                     Save
                                                 </button>
                                             }
-                                        </div>
+                                        </div> */}
                                         <div className="flex flex-wrap items-center mb-3">
-                                          
-                                                <button
-                                                    onClick={() => addCart(product)}
-                                                    className="w-full px-4 py-3 text-center text-pink-600 bg-pink-100 border border-pink-600  hover:bg-pink-600 hover:text-gray-100  rounded-xl"
-                                                >
-                                                    Save
-                                                </button>
-                                      
+                                            <button
+                                                onClick={() => window.open('https://wa.me/917688848189?text=Hello,%20I%20am%20interested%20in%20your%20product.', '_blank')}
+                                                className="w-full px-4 py-3 text-center text-white bg-green-500 border border-green-600 hover:bg-green-600 hover:text-white rounded-xl flex items-center justify-center space-x-2"
+                                            >
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                                                    <path fillRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 2.148.603 4.154 1.654 5.84L2 22l4.356-1.654A9.95 9.95 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 2c4.418 0 8 3.582 8 8 0 1.885-.649 3.625-1.735 5.012l.399 1.599-1.632-.436A7.948 7.948 0 0112 20a8 8 0 110-16zM9.828 7c-.443 0-.885.168-1.172.506l-.172.205-.34.455-.203.289c-.335.476-.52 1.05-.52 1.649 0 .599.185 1.173.52 1.65l.203.289.34.455.172.205c.287.338.729.506 1.172.506.154 0 .308-.02.457-.06l.173-.05.336-.113c.218-.073.43-.163.635-.268l.225-.113c.147-.074.292-.156.434-.242l.186-.113.308-.203a4.828 4.828 0 001.268-1.268l.203-.308.113-.186c.086-.142.168-.287.242-.434l.113-.225c.105-.205.195-.417.268-.635l.113-.336.05-.173c.04-.15.06-.303.06-.457 0-.443-.168-.885-.506-1.172l-.205-.172-.455-.34-.289-.203c-.476-.335-1.05-.52-1.649-.52s-1.173.185-1.65.52l-.289.203-.455.34-.205.172A1.658 1.658 0 009.828 7z" clipRule="evenodd" />
+                                                </svg>
+                                                <span>Chat on WhatsApp</span>
+                                            </button>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>

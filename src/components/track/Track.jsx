@@ -13,8 +13,8 @@ const Track = () => {
                     <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div className="border-2 hover:shadow-xl hover:shadow-gray-200 border-gray-200 bg-gray-100 shadow-[inset_0_0_2px_rgba(0,0,0,0.6)] px-4 py-6 rounded-lg"  >
                             <img src={cosmeticsImage} alt="img" />
-                            <h2 className="title-font font-medium text-lg text-gray-900" >Eco-Friendly Beauty</h2>
-                            <p className="leading-relaxed">Your guide to guilt-free beauty.
+                            <h2 className="title-font font-medium text-lg text-gray-900" >RTI Filing</h2>
+                            <p className="leading-relaxed">YGet the information you need from government bodies effortlessly
                             </p>
                         </div>
                     </div>
@@ -23,8 +23,8 @@ const Track = () => {
                     <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div className="border-2 hover:shadow-xl hover:shadow-gray-200 border-gray-200 bg-gray-100 shadow-[inset_0_0_2px_rgba(0,0,0,0.6)] px-4 py-6 rounded-lg"  >
                             <img src={sportImage} alt="img" />
-                            <h2 className="title-font font-medium text-lg text-gray-900" >Activewear</h2>
-                            <p className="leading-relaxed">Clothing focused on fitness, yoga, and active lifestyles..
+                            <h2 className="title-font font-medium text-lg text-gray-900" >Legal Advice</h2>
+                            <p className="leading-relaxed">Expert legal guidance tailored to your specific needs
                             </p>
                         </div>
                     </div>
@@ -33,9 +33,9 @@ const Track = () => {
                     <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div className="border-2 hover:shadow-xl hover:shadow-gray-200 border-gray-200 bg-gray-100 shadow-[inset_0_0_2px_rgba(0,0,0,0.6)] px-4 py-6 rounded-lg"  >
                             <img src={antiImage} alt="img" />
-                            <h2 className="title-font font-medium text-lg text-gray-900" >Anti-Aging Skincare
+                            <h2 className="title-font font-medium text-lg text-gray-900" >Tax Filing
                             </h2>
-                            <p className="leading-relaxed">solutions for women aged 35+.
+                            <p className="leading-relaxed">Simplify tax filing with professional support and maximize your returns
                             </p>
                         </div>
                     </div>
@@ -43,9 +43,9 @@ const Track = () => {
                     <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div className="border-2 hover:shadow-xl hover:shadow-gray-200 border-gray-200 bg-gray-100 shadow-[inset_0_0_2px_rgba(0,0,0,0.6)] px-4 py-6 rounded-lg"  >
                             <img src={babyImage} alt="img" />
-                            <h2 className="title-font font-medium text-lg text-gray-900" >Maternity & Postpartum 
+                            <h2 className="title-font font-medium text-lg text-gray-900" >Financial Consultation 
                             </h2>
-                            <p className="leading-relaxed">Caring for moms, from bump to baby.
+                            <p className="leading-relaxed">Plan your finances smartly with trusted expert advice
                             </p>
                         </div>
                     </div>

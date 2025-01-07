@@ -58,11 +58,11 @@ const Navbar = () => {
             </li>}
 
             {/* Cart */}
-            <li>
+            {/* <li>
                 <Link to={'/cart'}>
                     Saved({cartItems.length})
                 </Link>
-            </li>
+            </li> */}
         </ul>
     )
     return (

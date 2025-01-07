@@ -8,24 +8,24 @@ const category = [
     {
         image: cosmeticsImage,
         name: 'beauty',
-        displayName: 'Eco-Friendly Beauty'
+        displayName: 'RTI Filing'
     },
     {
         image: sportImage,
         name: 'activewear',
-        displayName: 'Activewear'
+        displayName: 'Legal Advice'
 
     },
     {
         image: antiImage,
         name: 'antiaging',
-        displayName: 'Anti-Aging Skincare'
+        displayName: 'Tax Filing'
 
     },   
     {
         image: babyImage, // A mother and baby icon for Maternity Care
         name: 'maternity',
-        displayName: 'Maternity & Postpartum Care'
+        displayName: 'Financial Consultation'
 
     }
 ]

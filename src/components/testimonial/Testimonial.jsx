@@ -19,7 +19,7 @@ const Testimonial = () => {
                         <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                             <div className="h-full text-center">
                             <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={KamalImage}/>
-                            <p className="leading-relaxed">"I've always struggled to find products that speak to my needs and desires as a woman. Consult Mitra's curated collection is a breath of fresh air. Every piece feels like it was made just for me. The moment I bought something from here, I could feel the love and care that goes into it. It's more than shopping; it's about celebrating myself!"</p>
+                            <p className="leading-relaxed">"I never knew filing an RTI could be this simple! The expert guidance helped me uncover important details about a delayed government project in my area. Highly recommend this platform for anyone seeking transparency!"</p>
                                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Tanya</h2>
                                 {/* <p className="text-gray-500">Senior Product Designer</p> */}
@@ -30,7 +30,8 @@ const Testimonial = () => {
                         <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                             <div className="h-full text-center">
                                 <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={GawriImage}/>
-                                <p className="leading-relaxed">"As a working mom, finding the time to shop for myself can be overwhelming. But with Consult Mitra, I can find beautiful, affordable products in a few clicks. It’s become my go-to destination for everything, from clothes to accessories, and it’s made me feel more confident and empowered."</p>
+                                <p className="leading-relaxed">"I was struggling to get documents related to my land records. With the help of this service, I filed an RTI and received the information within weeks. The process was smooth, and the consultant was incredibly helpful."
+                                </p>
                                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">S Mishra</h2>
                                 {/* <p className="text-gray-500">UI Developer</p> */}
@@ -41,7 +42,9 @@ const Testimonial = () => {
                       <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                             <div className="h-full text-center">
                                 <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={SaranyaImage}/>
-                                <p className="leading-relaxed">"As a working mom, finding the time to shop for myself can be overwhelming. But with Consult Mitra, I can find beautiful, affordable products in a few clicks. It’s become my go-to destination for everything, from clothes to accessories, and it’s made me feel more confident and empowered."</p>
+                                <p className="leading-relaxed">
+                                "Filing an RTI felt intimidating at first, but this platform made it straightforward. I successfully got answers regarding my pension delays. The consultant’s expertise made all the difference!"
+                                </p>
                                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Saranya H.</h2>
                                 {/* <p className="text-gray-500">UI Developer</p> */}
