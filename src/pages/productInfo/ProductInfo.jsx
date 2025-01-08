@@ -193,7 +193,7 @@ const ProductInfo = () => {
                                         </div> */}
                                         <div className="flex flex-wrap items-center mb-3">
                                             <button
-                                                onClick={() => window.open('https://wa.me/917688848189?text=Hello,%20I%20am%20interested%20in%20your%20product.', '_blank')}
+                                                onClick={() => window.open('https://wa.me/917718823813?text=Hello,%20I%20am%20interested%20in%20your%20product.', '_blank')}
                                                 className="w-full px-4 py-3 text-center text-white bg-green-500 border border-green-600 hover:bg-green-600 hover:text-white rounded-xl flex items-center justify-center space-x-2"
                                             >
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
