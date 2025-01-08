@@ -93,11 +93,17 @@ const HomePageProductCard = () => {
                                                     <button
                                                         onClick={() => addCart(item)}
                                                         className=" bg-green-500 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">
-                                                        Added to cart
+                                                        Add to cart
                                                     </button>
 
                                                 }
+                                           
                                             </div>
+                                            <button style={{marginTop:"4px"}}
+                                                    onClick={() => navigate(`/productinfo/${id}`)}
+                                                    className=" bg-green-500 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">
+                                                    View
+                                                </button>
                                         </div>
                                     </div>
                                 </div>
