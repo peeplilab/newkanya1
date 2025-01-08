@@ -77,7 +77,7 @@ const HomePageProductCard = () => {
                                                 ₹{price}
                                             </h1>
 
-                                            <div className="flex justify-center ">
+                                            {/* <div className="flex justify-center ">
                                                 {cartItems.some((p) => p.id === item.id)
 
                                                     ?
@@ -98,7 +98,7 @@ const HomePageProductCard = () => {
 
                                                 }
                                            
-                                            </div>
+                                            </div> */}
                                             <button style={{marginTop:"4px"}}
                                                     onClick={() => navigate(`/productinfo/${id}`)}
                                                     className=" bg-green-500 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">

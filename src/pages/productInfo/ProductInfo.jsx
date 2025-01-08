@@ -9,8 +9,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart, deleteFromCart } from "../../redux/cartSlice";
 import toast from "react-hot-toast";
 import FlowerTeaBenefits from "./Charts";
+import { Link, useNavigate } from "react-router-dom";
 
 const ProductInfo = () => {
+    const navigate = useNavigate();
+    const goToCart = () => {
+        navigate('/cart');
+    }
+
     const context = useContext(myContext);
     const { loading, setLoading } = context;
 
@@ -111,7 +117,7 @@ const ProductInfo = () => {
                                             ? <button
                                                 onClick={() => deleteCart(product)}
                                                 className="w-full px-4 py-3 text-center text-white bg-red-500 border border--600 hover:bg-red-600 rounded-xl">
-                                                Delete
+                                                Delete from cart
                                             </button>
                                             : <button
                                                 onClick={() => addCart(product)}
@@ -123,17 +129,20 @@ const ProductInfo = () => {
 
                                     <div className="flex flex-wrap items-center mb-3">
                                         <button
-                                            onClick={() => window.open('https://wa.me/917718823813?text=Hello,%20I%20am%20interested%20in%20your%20product.', '_blank')}
-                                            className="w-full px-4 py-3 text-center text-white bg-green-500 border border-green-600 hover:bg-green-600 rounded-xl flex items-center justify-center space-x-2">
-                                            <span>Chat on WhatsApp</span>
+                                            // onClick={() => window.open('https://wa.me/917718823813?text=Hello,%20I%20am%20interested%20in%20your%20product.', '_blank')}
+                                            onClick={goToCart}
+ 
+                                          className="w-full px-4 py-3 text-center text-white bg-green-500 border border-green-600 hover:bg-green-600 rounded-xl flex items-center justify-center space-x-2">
+                                            <span>View Cart</span>
                                         </button>
-                                            
+
                                     </div>
                                 </div>
                             </div>
 
                             {/* Flower Benefits Chart */}
                             <FlowerTeaBenefits selectedFlower={product.title} />
+                            
                         </div>
                     </div>}
             </section>

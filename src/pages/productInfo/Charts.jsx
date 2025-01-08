@@ -68,12 +68,19 @@ const FlowerTeaBenefits = ({ selectedFlower }) => {
     },
     {
       title: 'Butterfly Pea',
-      description: 'Brighten your day and skin with Butterfly Pea tea. A natural beauty booster and brain stimulator that transforms every cup into a magical experience.',
+      description: 'Brighten your day and skin with Butterfly Pea tea. It’s rich in antioxidants, promotes hair growth, and enhances brain function.',
       chartData: {
         labels: ['Beauty', 'Memory', 'Hair Growth', 'Vision', 'Calmness'],
         datasets: [{
           data: [30, 20, 25, 15, 10],
           backgroundColor: ['#B5EAEA', '#FFB3C1', '#FFC09F', '#E7C6FF', '#A3F7B5'],
+        }],
+      },
+      additionalChartData: {
+        labels: ['Brain Health', 'Hair Health', 'Eye Protection'],
+        datasets: [{
+          data: [35, 40, 25],
+          backgroundColor: ['#AFCBFF', '#DABFFF', '#FFB3B3'],
         }],
       },
       timingChartData: {
@@ -83,11 +90,18 @@ const FlowerTeaBenefits = ({ selectedFlower }) => {
           backgroundColor: ['#FFD6A5', '#B5EAEA', '#FFB3B3'],
         }],
       },
+      infoChartData: {
+        labels: ['Antioxidant', 'Memory Boost', 'Calmness'],
+        datasets: [{
+          data: [40, 30, 30],
+          backgroundColor: ['#FFD6A5', '#C1E1C1', '#FFB3B3'],
+        }],
+      },
       catchyLine: '🌸 Beauty in every sip, wellness in every bloom.'
     },
     {
       title: 'Moringa',
-      description: 'Fuel your beauty and health with Moringa, the miracle tea. It strengthens hair, revitalizes skin, and boosts energy from the inside out.',
+      description: 'Fuel your body with the power of Moringa. It boosts immunity, supports metabolism, and enhances skin vitality.',
       chartData: {
         labels: ['Immunity', 'Energy', 'Skin', 'Digestion', 'Muscle Growth'],
         datasets: [{
@@ -95,7 +109,61 @@ const FlowerTeaBenefits = ({ selectedFlower }) => {
           backgroundColor: ['#FFCF81', '#FFAFCC', '#A0C4FF', '#CDB4DB', '#9BF6FF'],
         }],
       },
+      additionalChartData: {
+        labels: ['Metabolism Boost', 'Detox', 'Bone Health'],
+        datasets: [{
+          data: [40, 35, 25],
+          backgroundColor: ['#AFCBFF', '#FFC3A0', '#B5EAEA'],
+        }],
+      },
+      timingChartData: {
+        labels: ['Morning', 'Afternoon', 'Evening'],
+        datasets: [{
+          data: [40, 35, 25],
+          backgroundColor: ['#FFD6A5', '#F9D371', '#FFB3B3'],
+        }],
+      },
+      infoChartData: {
+        labels: ['Nutrient-Rich', 'Detoxifying', 'Energy Boost'],
+        datasets: [{
+          data: [40, 30, 30],
+          backgroundColor: ['#FFD6A5', '#B5EAEA', '#C1E1C1'],
+        }],
+      },
       catchyLine: '🌿 Moringa – nature’s gift for timeless beauty and vitality.'
+    },
+    {
+      title: 'Rhododendron',
+      description: 'Rhododendron tea, derived from Himalayan flowers, promotes cardiovascular health, reduces inflammation, and enhances skin glow.',
+      chartData: {
+        labels: ['Heart Health', 'Skin Glow', 'Anti-inflammatory', 'Immunity', 'Relaxation'],
+        datasets: [{
+          data: [25, 20, 20, 20, 15],
+          backgroundColor: ['#F8B195', '#FFDDC1', '#C1E1C1', '#AFCBFF', '#FFC09F'],
+        }],
+      },
+      additionalChartData: {
+        labels: ['Detox', 'Anti-stress', 'Vitality'],
+        datasets: [{
+          data: [35, 40, 25],
+          backgroundColor: ['#FF928B', '#B5EAEA', '#FFD6A5'],
+        }],
+      },
+      timingChartData: {
+        labels: ['Morning', 'Afternoon', 'Evening'],
+        datasets: [{
+          data: [30, 30, 40],
+          backgroundColor: ['#C1E1C1', '#FFD6A5', '#F9D371'],
+        }],
+      },
+      infoChartData: {
+        labels: ['Anti-inflammatory', 'Calming', 'Heart Health'],
+        datasets: [{
+          data: [40, 30, 30],
+          backgroundColor: ['#AFCBFF', '#B5EAEA', '#FFC3A0'],
+        }],
+      },
+      catchyLine: '🌺 Rhododendron – A vibrant bloom for your heart and soul.'
     }
   ];
 
