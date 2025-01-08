@@ -61,7 +61,7 @@ const AllProduct = () => {
                                         />
                                         <div className="p-6">
                                             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                                                Consult Mitra
+                                                NewKanya
                                             </h2>
                                             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                                                 {title.substring(0, 25)}
@@ -77,7 +77,7 @@ const AllProduct = () => {
                                                 ?
                                                 <button
                                                     onClick={() => deleteCart(item)}
-                                                    className=" bg-red-700 hover:bg-pink-600 w-full text-white py-[4px] rounded-lg font-bold">
+                                                    className=" bg-red-700 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">
                                                     Delete
                                                 </button>
 
@@ -85,7 +85,7 @@ const AllProduct = () => {
 
                                                 <button
                                                     onClick={() => addCart(item)}
-                                                    className=" bg-pink-500 hover:bg-pink-600 w-full text-white py-[4px] rounded-lg font-bold">
+                                                    className=" bg-green-500 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">
                                                     Save
                                                 </button>
                                             }

@@ -19,7 +19,7 @@ const HomePage = () => {
     return (
         <Layout>
             {/* <TextSwitcher/> */}
-            {/* <HeroSection/> */}
+            <HeroSection/>
             <Category/>
 <h1></h1>
             <HomePageProductCard/>
