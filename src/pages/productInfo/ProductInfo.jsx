@@ -181,7 +181,7 @@ const ProductInfo = () => {
                                                     onClick={() => deleteCart(product)}
                                                     className="w-full px-4 py-3 text-center text-white bg-red-500 border border--600  hover:bg-red-600 hover:text-gray-100  rounded-xl"
                                                 >
-                                                    Delete Save
+                                                    Delete from cart
                                                 </button>
                                                 :
                                                 <button
