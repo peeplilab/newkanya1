@@ -22,7 +22,7 @@ const HomePageProductCard = () => {
     // Save function
     const addCart = (item) => {
         dispatch(addToCart(item));
-        toast.success("Saved")
+        toast.success("Added to cart")
     }
 
 
@@ -93,7 +93,7 @@ const HomePageProductCard = () => {
                                                     <button
                                                         onClick={() => addCart(item)}
                                                         className=" bg-green-500 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">
-                                                        Save
+                                                        Added to cart
                                                     </button>
 
                                                 }

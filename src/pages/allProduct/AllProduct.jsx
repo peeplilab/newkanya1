@@ -20,7 +20,7 @@ const AllProduct = () => {
     const addCart = (item) => {
         // console.log(item)
         dispatch(addToCart(item));
-        toast.success("Save")
+        toast.success("Added to cart")
     }
 
     const deleteCart = (item) => {
@@ -86,7 +86,7 @@ const AllProduct = () => {
                                                 <button
                                                     onClick={() => addCart(item)}
                                                     className=" bg-green-500 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">
-                                                    Save
+                                                    Add to cart
                                                 </button>
                                             }
                                             </div>

@@ -8,6 +8,7 @@ import Loader from "../../components/loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, deleteFromCart } from "../../redux/cartSlice";
 import toast from "react-hot-toast";
+import FlowerTeaBenefits from "./Charts";
 
 const ProductInfo = () => {
     const context = useContext(myContext);
@@ -40,7 +41,7 @@ const ProductInfo = () => {
     const addCart = (item) => {
         // console.log(item)
         dispatch(addToCart(item));
-        toast.success("Save")
+        toast.success("Added to cart")
     }
 
     const deleteCart = (item) => {
@@ -173,7 +174,7 @@ const ProductInfo = () => {
                                         </div>
 
                                         <div className="mb-6 " />
-                                        {/* <div className="flex flex-wrap items-center mb-3">
+                                        <div className="flex flex-wrap items-center mb-3">
                                             {cartItems.some((p) => p.id === product.id)
                                                 ?
                                                 <button
@@ -190,7 +191,7 @@ const ProductInfo = () => {
                                                     Save
                                                 </button>
                                             }
-                                        </div> */}
+                                        </div>
                                         <div className="flex flex-wrap items-center mb-3">
                                             <button
                                                 onClick={() => window.open('https://wa.me/917718823813?text=Hello,%20I%20am%20interested%20in%20your%20product.', '_blank')}
@@ -205,6 +206,7 @@ const ProductInfo = () => {
 
                                     </div>
                                 </div>
+                                <FlowerTeaBenefits selectedFlower={product.title}/>
                             </div>
                         </div>
                     </>}
