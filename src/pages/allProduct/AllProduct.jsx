@@ -38,7 +38,7 @@ const AllProduct = () => {
     <div className="py-8">
             {/* Heading  */}
             <div className="">
-                <h1 className=" text-center mb-5 text-2xl font-semibold">All consultants</h1>
+                <h1 className=" text-center mb-5 text-2xl font-semibold">Fresh from Our Garden</h1>
             </div>
 
             {/* main  */}

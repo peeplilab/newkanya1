@@ -13,7 +13,7 @@ function MyState({ children }) {
     const [getAllProduct, setGetAllProduct] = useState([]);
 
     /**========================================================================
-     *                          GET All consultant Function
+     *                          GET Our Garden Function
      *========================================================================**/
 
     const getAllProductFunction = async () => {
