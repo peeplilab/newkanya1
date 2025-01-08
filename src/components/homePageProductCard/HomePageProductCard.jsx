@@ -40,7 +40,8 @@ const HomePageProductCard = () => {
         <div className="mt-10">
             {/* Heading  */}
             <div className="">
-                <h1 className=" text-center mb-5 text-2xl font-semibold">Most Loved
+                <h1 className=" text-center mb-5 text-2xl font-semibold"><p>🌸 Most Loved ❤️😊👍</p>
+
                 </h1>
             </div>
 
