@@ -92,7 +92,7 @@ const CategoryPage = () => {
                                                                         <button
                                                                             onClick={() => deleteCart(item)}
                                                                             className=" bg-red-700 hover:bg-green-600 w-full text-white py-[4px] rounded-lg font-bold">
-                                                                            Delete from Cart
+                                                                            Delete
                                                                         </button>
 
                                                                         :
